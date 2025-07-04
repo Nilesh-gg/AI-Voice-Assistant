@@ -1,0 +1,31 @@
+#glassContainer {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#chatLog {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    color: #00ffff;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 10px;
+}
+
+#speakButton {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                    stop:0 #00c6ff, stop:1 #0072ff);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+}
+
+#speakButton:hover {
+    background-color: #0099ff;
+}
